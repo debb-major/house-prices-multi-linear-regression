@@ -47,7 +47,7 @@ house-prices-multi-linear-regression/
    ```bash
    jupyter notebook notebook/house_price_multilinear_regression.ipynb
 
-💬 Final Thoughts
+## 💬 Final Thoughts
 This was an exciting step forward from simple linear regression to working with multiple inputs. It's fascinating how a model can understand patterns from real-world factors like area and furnishings!
 
 Thanks for checking out the project! 🌟
