@@ -16,21 +16,25 @@ It builds on my first ML project and was a fun next step in understanding how mu
 - scikit-learn
 - seaborn & matplotlib for visuals
 
-## 📁 File Structure
 
-student-multilinear-regression/
+## 📁 Project Structure
+
+```
+house-prices-multi-linear-regression/
 ├── data/
 │   └── housing_data.csv
 ├── notebook/
 │   └── house_price_multilinear_regression.ipynb
-├── README.md
-└── requirements.txt
+├── requirements.txt
+└── README.md
+```
+
 
 
 ## 📦 How to Run
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/student-multilinear-regression.git
+   git clone https://github.com/debb-major/house-prices-multi-linear-regression.git
    
 2. Install dependencies:
    ```bash
@@ -45,4 +49,19 @@ student-multilinear-regression/
 This was an exciting step forward from simple linear regression to working with multiple inputs. It's fascinating how a model can understand patterns from real-world factors like area and furnishings!
 
 Thanks for checking out the project! 🌟
+
+🙌 Author
+Made with 💙 by Debb-major
+
+📌 Note
+This project is part of my learning journey into AI/ML. More beginner-friendly projects coming soon!
+---
+
+### ✅ Tips:
+- Update the `git clone` link and author links.
+- Make sure the folder names match your actual GitHub repo structure.
+- Use `README.md` preview in GitHub to double-check formatting.
+
+Let me know if you want me to help you generate the `requirements.txt` or anything else!
+
 
