@@ -52,10 +52,9 @@ This was an exciting step forward from simple linear regression to working with 
 
 Thanks for checking out the project! 🌟
 
-🙌 Author
 Made with 💙 by Debb-major
 
-📌 Note
+## 📌 Note
 This project is part of my learning journey into AI/ML. More beginner-friendly projects coming soon!
 ---
 
