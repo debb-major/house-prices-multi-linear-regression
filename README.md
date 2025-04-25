@@ -1,6 +1,8 @@
-# 📚 House Price Prediction (Multi-Linear Regression)
+# 🏠 Housing Price Prediction - Multiple Linear Regression
 
-This project is a beginner-friendly machine learning exploration where I built a **Multiple Linear Regression** model to predict student scores based on various features such as area, bedrooms, and furnishing status.
+This project is a beginner-friendly walkthrough of a multiple linear regression model to predict house prices based on factors like area, number of bedrooms, bathrooms, and stories.
+
+I had so much fun doing this project! It helped me deepen my understanding of how multiple variables interact in real-world data. 🎯
 
 It builds on my first ML project and was a fun next step in understanding how multiple inputs influence a single outcome.
 
