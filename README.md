@@ -50,19 +50,17 @@ house-prices-multi-linear-regression/
 ## 💬 Final Thoughts
 This was an exciting step forward from simple linear regression to working with multiple inputs. It's fascinating how a model can understand patterns from real-world factors like area and furnishings!
 
+I got my dataset from here - https://github.com/aman9801/multiple-linear-regression-on-housing-dataset. Thank you, Aman9801.
+
 Thanks for checking out the project! 🌟
 
 Made with 💙 by Debb-major
 
 ## 📌 Note
-This project is part of my learning journey into AI/ML. More beginner-friendly projects coming soon!
+This project is part of my learning journey into AI/ML.
+
+More beginner-friendly projects coming soon!
 ---
 
-### ✅ Tips:
-- Update the `git clone` link and author links.
-- Make sure the folder names match your actual GitHub repo structure.
-- Use `README.md` preview in GitHub to double-check formatting.
-
-Let me know if you want me to help you generate the `requirements.txt` or anything else!
 
 
