@@ -73,7 +73,9 @@ This is the flow to creating your logic:
 - Interpret Coefficients: 
    Print out how each feature impacts the predicted price.
 
-  
+- Visualize Results
+   A scatter plot shows how close predicted prices are to actual ones.
+
 
 ## 📦 How to Run
 1. Clone the repo:
@@ -95,8 +97,9 @@ This is the flow to creating your logic:
 A decent start — the model explains 65% of the price variability.
 
 ## 📊 Visualization
-![Graph 1](https://github.com/user-attachments/assets/ed9d3954-84fb-414c-8526-2956466be8b3)
 A scatter plot comparing actual house prices vs predicted ones.
+
+![Graph 1](https://github.com/user-attachments/assets/ed9d3954-84fb-414c-8526-2956466be8b3)
 
 ## 🔄 Things That Stay the Same
 - The logic flow of the model steps
