@@ -101,18 +101,6 @@ A scatter plot comparing actual house prices vs predicted ones.
 
 ![Graph 1](https://github.com/user-attachments/assets/ed9d3954-84fb-414c-8526-2956466be8b3)
 
-## 🔄 Things That Stay the Same
-- The logic flow of the model steps
-- The core libraries for regression (pandas, sklearn, etc.)
-- The evaluation metrics (like MSE, R²)
-
-## 🧹 Things That Can Change
-- The dataset and its features
-- The preprocessing needs (e.g., missing values, outliers)
-- The target variable
-- The visualization style or tools
-- The model (could be Linear Regression, Random Forest, etc.)
-
 
 ## 💬 Final Thoughts
 This was an exciting step forward from simple linear regression to working with multiple inputs. It's fascinating how a model can understand patterns from real-world factors like area and furnishings!
