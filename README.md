@@ -73,7 +73,7 @@ This is the flow to creating your logic:
 - Interpret Coefficients: 
    Print out how each feature impacts the predicted price.
 
-- Visualize Results
+- Visualize Results:
    A scatter plot shows how close predicted prices are to actual ones.
 
 
