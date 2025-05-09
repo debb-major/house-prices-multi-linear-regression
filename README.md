@@ -67,7 +67,7 @@ This is the flow to creating your logic:
 - Make Predictions: 
    Use ```.predict()``` to estimate housing prices on the test set.
 
-- Evaluate Performance - 
+- Evaluate Performance: 
    Print metrics like: ```Mean Squared Error (MSE)```, ```R-squared Score (R²)
 
 - Interpret Coefficients: 
