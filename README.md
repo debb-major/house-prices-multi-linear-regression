@@ -35,6 +35,11 @@ house-prices-multi-linear-regression/
 │   └── housing_data.csv
 ├── notebook/
 │   └── house_price_multilinear_regression.ipynb
+│   └── requirements_command.ipynb # command to install requirements
+│   └── test_predict_model.ipynb # command to test model for prediction
+├── test_model.py
+├── predict_with_model.py
+├── model.pkl
 ├── requirements.txt
 └── README.md
 ```
@@ -91,6 +96,16 @@ This is the flow to creating your logic:
    ```bash
    jupyter notebook notebook/house_price_multilinear_regression.ipynb
 
+4. (Optional) Test the model from the command line:
+
+   ```bash
+   python test_model.py
+
+5. (Optional) Predict with the saved model:
+
+   ```bash
+   python predict_with_model.py
+
 ## 📈 Sample Output
 #### Mean Squared Error: 1.75e+12
 #### R-squared Score: 0.65
@@ -100,6 +115,18 @@ A decent start — the model explains 65% of the price variability.
 A scatter plot comparing actual house prices vs predicted ones.
 
 ![Graph 1](https://github.com/user-attachments/assets/ed9d3954-84fb-414c-8526-2956466be8b3)
+
+
+
+## 🧪 Model Testing & Reusability
+
+This project includes scripts to validate and reuse the model outside the notebook:
+
+- ✅ `test_model.py`: Trains and evaluates the model programmatically
+- ✅ `predict_with_model.py`: Loads the saved model (`model.pkl`) and makes a prediction without retraining
+- ✅ `model.pkl`: A serialized version of the trained model using `joblib`
+
+This makes the project easier to reuse, test, and extend toward deployment.
 
 
 ## 💬 Final Thoughts
