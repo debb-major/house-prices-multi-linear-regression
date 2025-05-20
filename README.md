@@ -109,7 +109,7 @@ This is the flow to creating your logic:
 ## 📈 Sample Output
 #### Mean Squared Error: 1.75e+12
 #### R-squared Score: 0.65
-A decent start — the model explains 65% of the price variability.
+A decent start — the model predicts 65% of the price variability.
 
 ## 📊 Visualization
 A scatter plot comparing actual house prices vs predicted ones.

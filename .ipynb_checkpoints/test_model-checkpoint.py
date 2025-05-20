@@ -1,12 +1,15 @@
+# import modules
+from datetime import datetime
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
+import joblib
 
 # 1. Load data
 df = pd.read_csv("../data/housing_data.csv")
 
-# 2. Encode categorical variables (same as your notebook)
+# 2. Encode categorical variables
 df_encoded = pd.get_dummies(df, drop_first=True)
 
 # 3. Define features and target
@@ -20,14 +23,26 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-# 6. Make a prediction
+# 6. Make predictions
 y_pred = model.predict(X_test)
 
-# 7. Print results
-print("Sample prediction:", y_pred[0])
-print("Mean Squared Error:", mean_squared_error(y_test, y_pred))
+# 7. Print and log results
+sample_prediction = y_pred[0]
+mse = mean_squared_error(y_test, y_pred)
+print("Sample prediction:", sample_prediction)
+print("Mean Squared Error:", mse)
 
-# 8. Save the trained model
-import joblib
+# 8. Save the model
 joblib.dump(model, "model.pkl")
 print("Model saved to model.pkl")
+
+# 9. Log the output to a timestamped file
+timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+log_filename = f"test_results_{timestamp}.txt"
+
+with open(log_filename, 'w') as file:
+    file.write(f"Sample prediction: {sample_prediction}\n")
+    file.write(f"Mean Squared Error: {mse}\n")
+    file.write("Model saved to model.pkl\n")
+
+print("Log file created:", log_filename)
