@@ -1,13 +1,14 @@
 # import modules
 from datetime import datetime
 import pandas as pd
+import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_squared_error, r2_score
 import joblib
 
 # 1. Load data
-df = pd.read_csv("../data/housing_data.csv")
+df = pd.read_csv("data/housing_data.csv")
 
 # 2. Encode categorical variables
 df_encoded = pd.get_dummies(df, drop_first=True)
@@ -29,8 +30,13 @@ y_pred = model.predict(X_test)
 # 7. Print and log results
 sample_prediction = y_pred[0]
 mse = mean_squared_error(y_test, y_pred)
+rmse = np.sqrt(mse)
+r2 = r2_score(y_test, y_pred)
+
 print("Sample prediction:", sample_prediction)
 print("Mean Squared Error:", mse)
+print(f"Root Mean Squared Error: {rmse}")
+print(f"R² Score: {r2}")
 
 # 8. Save the model
 joblib.dump(model, "model.pkl")

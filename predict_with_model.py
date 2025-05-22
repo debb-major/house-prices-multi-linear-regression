@@ -6,7 +6,7 @@ def main():
     model = joblib.load("model.pkl")
 
     # 2. Load and preprocess the dataset (just for feature structure)
-    df = pd.read_csv("../data/housing_data.csv")
+    df = pd.read_csv("data/housing_data.csv")
     df_encoded = pd.get_dummies(df, drop_first=True)
 
     # 3. Drop target column to get only features
