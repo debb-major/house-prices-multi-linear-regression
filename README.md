@@ -35,7 +35,6 @@ house-prices-multi-linear-regression/
 │   └── housing_data.csv
 ├── notebook/
 │   └── house_price_multilinear_regression.ipynb
-│   └── requirements_command.ipynb # command to install requirements
 │   └── test_predict_model.ipynb # command to test model for prediction
 ├── test_model.py
 ├── predict_with_model.py
